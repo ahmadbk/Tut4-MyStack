@@ -19,7 +19,7 @@ STACK1_API int fnStack1(void)
 CStack1::~CStack1()
 {
 	NODE *p1;
-	while (head != NULL)
+	while (head != NULL) 
 	{
 		p1 = head;
 		head = head->link;
